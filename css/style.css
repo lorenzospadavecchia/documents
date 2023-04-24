@@ -227,7 +227,7 @@ a:focus {
   border-radius: 50%; */
   max-width: 40%;
   margin-left: 10%;
-  clip-path: circle(40%);
+  clip-path: circle(80%);
   overflow: hidden; 
   display: flex;
   justify-content: center;
