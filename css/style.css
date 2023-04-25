@@ -643,3 +643,33 @@ iframe, object, embed {
   -webkit-transform-origin: 50% 50%;
   transform-origin: 50% 50%;
 }
+
+
+
+.buttonAbstract{
+    color:black;
+    border: 1.5px solid black;
+    background-color:#F8F9FA;
+    border-radius: 6px;
+}
+
+.buttonAbstract .link_button{
+    color: inherit;
+    text-decoration:none;
+}
+
+.buttonAbstract:hover{
+    color:#F8F9FA;
+    border: 1.5px solid #B21311;
+    background-color:#B21311;
+}
+
+.buttonAbstract:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.research-buttons{
+    margin-top:0px;
+    padding-top:0;
+}
