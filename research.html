@@ -234,30 +234,6 @@ $('body').on('click', function (e) {
 });
 </script>
 
-<script>
-    function update_abstract_button(x)
-        {
-            var elem = document.getElementById(x);
-            if (elem.value =="Show Abstract") {
-                elem.value  = "Hide Abstract";
-                elem.innerHTML  = "Abstract &#x25B2;";
-            } else{
-            elem.value  = "Show Abstract";
-            elem.innerHTML  = "Abstract &#x25BC;";
-            }
-        }
-</script>
-
-
-<script>
-$(function () {
-  $(document).scroll(function () {
-    var $nav = $(".navbar");
-    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height()+55);
-  });
-});
-</script>
-
 </body>
 
 </html>
