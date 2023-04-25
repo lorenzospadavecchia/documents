@@ -36,7 +36,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.2/css/academicons.min.css" integrity="sha512-KlJCpRsLf+KKu2VQa5vmRuClRFjxc5lXO03ixZt82HZUk41+1I0bD8KBSA0fY290ayMfWYI9udIqeOWSu1/uZg==" crossorigin="anonymous" media="print" onload='this.media="all"'>
 
-
+  <script type="text/javascript" src="jquery-3.1.1.js"></script>
 </head>
 
 <body>
@@ -233,6 +233,33 @@ $('body').on('click', function (e) {
     });
 });
 </script>
+
+
+<script>
+    function update_abstract_button(x)
+        {
+            var elem = document.getElementById(x);
+            if (elem.value =="Show Abstract") {
+                elem.value  = "Hide Abstract";
+                elem.innerHTML  = "Abstract &#x25B2;";
+            } else{
+            elem.value  = "Show Abstract";
+            elem.innerHTML  = "Abstract &#x25BC;";
+            }
+        }
+</script>
+
+
+<script>
+$(function () {
+  $(document).scroll(function () {
+    var $nav = $(".navbar");
+    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height()+55);
+  });
+});
+</script>
+
+<script src="js/jquery-1.11.3.min.js"></script>
 
 </body>
 
