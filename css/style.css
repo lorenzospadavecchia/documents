@@ -660,8 +660,8 @@ iframe, object, embed {
 
 .buttonAbstract:hover{
     color:#F8F9FA;
-    border: 1.5px solid #335b81;
-    background-color:#335b81;
+    border: 1.5px solid #003262;
+    background-color:#003262;
 }
 
 .buttonAbstract:focus {
