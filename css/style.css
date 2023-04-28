@@ -149,10 +149,10 @@ a:focus {
 .navbar-brand:hover {
   font-size: 30px;
   color: #003262;
-  font-weight: bold;
+  font-weight: normal;
   position: relative;
   top: -30px;
-  margin-bottom: 10px;
+  margin-bottom: 1cm;
 }
 
 
