@@ -682,3 +682,28 @@ iframe, object, embed {
 .link_paper:hover{
     color: #870302;
 }
+
+
+
+
+/*data and teaching descriptions*/
+
+img.imginsert{
+  max-width: 40vw;
+}
+
+div[id^="course"]{
+  display:flex;
+}
+
+#class_toggle:hover {
+  text-decoration: underline;
+}
+
+#project_toggle:hover {
+  text-decoration: underline;
+}
+
+div[id^="proj"]{
+  display:flex;
+}
