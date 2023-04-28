@@ -673,3 +673,11 @@ iframe, object, embed {
     margin-top:0px;
     padding-top:0;
 }
+
+
+.link_paper{
+    color: #0a00d5;
+}
+.link_paper:hover{
+    color: #870302;
+}
