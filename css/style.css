@@ -689,7 +689,7 @@ iframe, object, embed {
 /*data and teaching descriptions*/
 
 img.imginsert{
-   max-width: 100vw
+   max-width: 100%
 }
 
 div[id^="course"]{
